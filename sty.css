@@ -1,0 +1,206 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: #40514e;
+   /* background-color: #fceef5; */
+    /* font-size: 200% */
+}
+h1{
+    /* font-size: 562.5%; */
+    /* font-size: 90px; */
+    /* font-size: 5,625rem */;
+    font-size: 5.625em;
+    margin: 50px auto 0 auto ;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+    
+    /* if the width of h1 changed then we have to set the margin in order to keep them in center....
+    margin: 0 auto 0 auto;
+    width: 10% */
+    /* So generally size of h1 is 16px (100%)[16px = 100% = 1em]. if you want to set it to 90px then you have to (90 / 16  = 562.5 = 5.625em) */
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px ;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+
+}
+
+.top_container{
+     background-color: #e3fdfd ;
+    position: relative;
+    padding-top: 100px; 
+
+    /*height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    padding: 10px;*/
+}
+.middle-container{
+    /* height: 200px;
+    width: 200px;
+    background-color: aqua; */
+   /* border: 20px solid black;
+    margin-top: 0px;
+    margin-left: 240px;
+    margin-bottom: 0px; */ 
+     
+    margin-top: 50px;
+}
+.bottom_container{
+    /* height: 200px;
+    width: 200px;
+    background-color: rgb(228, 144, 196); */
+    /*border: 10px solid black;
+    margin-top: 0px;
+    margin-right: 480px;
+    margin-left: 480px;
+    margin-bottom: 0px;*/
+}
+.pro{
+    text-decoration: underline;
+}
+.top-cloud{
+    /* position: relative;
+    left: 200px; */
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left: 250px;
+    bottom: 300px;
+}
+a{
+  color: #11999E;
+}
+.colo{
+    line-height: 0.5;
+    color: #11999E;
+    font-size: 1.5rem;
+}
+.skill-row{
+    width: 50%;
+    margin: 60px auto 60px auto;
+    text-align: left;
+    line-height: 2;
+}
+.coding{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+.noodle-image{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+.pic{
+    width: 20%;
+}
+/*.code-skill-description{
+    clear: left;
+}
+.noodle-skill-description{
+    clear: right; (wrapping text around the element, don't use it for positioning)
+}*/
+.btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 10px;
+    -webkit-box-shadow: 0 0 5px 0 #0059A0;
+    -moz-box-shadow: 0 0 5px 0 #0059A0;
+    box-shadow: 0 0 5px 0 #0059A0;
+    text-shadow: 1px 1px 20px #66BFBF;
+    border: solid #0059A0 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 55px;
+ }
+ 
+ .btn:hover {
+    border: solid #66BFBF 1px;
+    background: #6666NAN;
+    background-image: -webkit-linear-gradient(top, #6666NAN, #3D94F6);
+    background-image: -moz-linear-gradient(top, #6666NAN, #3D94F6);
+    background-image: -ms-linear-gradient(top, #6666NAN, #3D94F6);
+    background-image: -o-linear-gradient(top, #6666NAN, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #6666NAN, #3D94F6);
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    text-decoration: none;
+
+ }
+ .hot{
+    width: 60%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .bottom-container{
+    padding-top: 40px;
+    padding-bottom: 15px;
+    background-color: #66BFBF;
+    color: #eaf6f6;
+    font-size: small;
+    letter-spacing: 2px;
+    line-height: 2.5;
+    font-weight: bold;
+}
+.footer-link{
+    margin-top: 100px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.footer-link:hover{
+    color: #eaf6f6;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    color: #c4b6b6;
+    border-width: 6px;
+    width: 4%; 
+    margin-top: 80px;
+    margin-bottom: 50px;
+    
+
+}
+.intro{
+    width: 55%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+p{
+    line-height: 2;
+}
